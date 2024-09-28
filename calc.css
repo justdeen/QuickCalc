@@ -20,6 +20,13 @@ section{
     width: 350px
 }
 
+section div{
+    padding-right: 0px;
+    margin-right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
 section div:nth-of-type(5){
     margin-bottom: 15px;
 }
@@ -184,7 +191,6 @@ svg{
 
     section{
         height: 450px;
-        width: 300px;
     }
 
     svg{
