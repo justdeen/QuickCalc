@@ -109,8 +109,8 @@ label{
 
 /* Styling of SVGs */
 svg{
-    height: 17px;
-    width: 17px;
+    height: 21px;
+    width: 21px;
     fill: rgb(37, 35, 35);
 }
 
@@ -186,8 +186,8 @@ svg{
     }
 
     svg{
-        height: 14px;
-        width: 14px;
+        height: 18px;
+        width: 18px;
     }
 
     .hist{
