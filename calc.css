@@ -31,6 +31,7 @@ section div:nth-of-type(5){
 /* Styling of input field */
 input{
     height: 70px;
+    width: 125px;
     font-size: 25px;
     color: rgb(37, 36, 36);
     border: none;
