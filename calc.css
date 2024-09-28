@@ -35,7 +35,7 @@ section div:nth-of-type(5){
 /* Styling of input field */
 input{
     height: 70px;
-    width: 310px;
+    width: 315px;
     font-size: 25px;
     color: rgb(37, 36, 36);
     border: none;
@@ -125,7 +125,7 @@ svg{
 }
 
 .hist{
-    transform: translate(-4px, 28px);
+    transform: translate(-4px, 34px);
 }
 
 .hist:active{
@@ -165,6 +165,7 @@ svg{
     input{
         height: 55px;
         font-size: 20px;
+        width: 310px;
     }
     
     button{
@@ -201,7 +202,7 @@ svg{
     }
 
     .hist{
-        transform: translate(-7px, 35px);
+        transform: translate(-7px, 55px);
     }
 
     .fixed{
