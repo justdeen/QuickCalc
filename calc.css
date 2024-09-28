@@ -165,7 +165,7 @@ svg{
     input{
         height: 55px;
         font-size: 20px;
-        width: 215px;
+        width: 220px;
     }
     
     button{
@@ -175,7 +175,7 @@ svg{
     }
 
     #store-container{
-        transform: translate(-58px, -19px);
+        transform: translate(-60px, -19px);
         height: 190px;
         width: 150px;
     }
