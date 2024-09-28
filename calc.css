@@ -26,6 +26,7 @@ section{
     padding: 0px 10px;
     border-radius: 30px;
     height: 590px;
+    width: 310px;
 }
 
 section div:nth-of-type(5){
@@ -125,7 +126,7 @@ svg{
 }
 
 .hist{
-    transform: translate(-4px, -12px);
+    transform: translate(-4px, -2px);
 }
 
 .hist:active{
@@ -193,6 +194,7 @@ svg{
 
     section{
         height: 450px;
+        width: 235px;
     }
 
     svg{
@@ -201,7 +203,7 @@ svg{
     }
 
     .hist{
-        transform: translate(-7px, -6px);
+        transform: translate(-7px, 6px);
     }
 
     .fixed{
