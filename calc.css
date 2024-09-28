@@ -20,7 +20,7 @@ section{
 }
 
 section div{
-    padding-left: -30px;
+    padding-right: -30px;
     border-right: 1px solid black;
     border-left: 1px solid black;
 }
