@@ -125,7 +125,7 @@ svg{
 }
 
 .hist{
-    transform: translate(-4px, 27px);
+    transform: translate(-4px, 37px);
 }
 
 .hist:active{
@@ -165,7 +165,7 @@ svg{
     input{
         height: 55px;
         font-size: 20px;
-        width: 225px;
+        width: 250px;
     }
     
     button{
@@ -202,7 +202,7 @@ svg{
     }
 
     .hist{
-        transform: translate(-7px, 63px);
+        transform: translate(-7px, 73px);
     }
 
     .fixed{
