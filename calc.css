@@ -7,6 +7,13 @@ body{
     background-color: grey;
 }
 
+h1{
+    text-align: center;
+    color: rgb(37, 35, 35);
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
 /* Styling of main container */
 section{
     display: flex;
@@ -19,11 +26,6 @@ section{
     height: 590px;
 }
 
-section div{
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-}
-
 section div:nth-of-type(5){
     margin-bottom: 15px;
 }
@@ -31,7 +33,7 @@ section div:nth-of-type(5){
 /* Styling of input field */
 input{
     height: 70px;
-    width: 125px;
+    width: 100%;
     font-size: 25px;
     color: rgb(37, 36, 36);
     border: none;
