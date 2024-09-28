@@ -1,0 +1,200 @@
+/* Centering the main container */
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: gray;
+}
+
+/* Styling of main container */
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(143, 142, 142);
+    border: 2px solid rgb(71, 70, 70);
+    margin-bottom: 1px;
+    padding: 0px 10px;
+    border-radius: 30px;
+    height: 590px;
+}
+
+section div:nth-of-type(5){
+    margin-bottom: 15px;
+}
+
+/* Styling of input field */
+input{
+    height: 70px;
+    font-size: 25px;
+    color: rgb(37, 36, 36);
+    border: none;
+    border-bottom: 2px solid rgb(71, 70, 70);
+    background-color: rgb(143, 142, 142);
+    margin: 13px 4px;
+    margin-bottom: 15px;
+    margin-top: 65px;
+    padding-bottom: 15px;
+    outline: none;
+}
+
+/* Styling of buttons */
+button{
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    padding: 0px;
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-image: linear-gradient(to right, rgb(37, 35, 35) , rgb(69, 69, 73));
+    color: rgb(255, 255, 255);
+    transition: all 0.1s;
+}
+
+button:active{
+    background-image: linear-gradient(to right, rgb(69, 69, 73), rgb(37, 35, 35));
+}
+
+/* Container for storing answers to calculations */
+#store-container{
+    overflow-y: auto;
+    height: 250px;
+    width: 200px;
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(187, 187, 187);
+    transform: translate(-75px, -90px);
+}
+
+#store{
+    position: static;
+    padding-left: 5px;
+}
+
+#wrap{
+    position: absolute;
+    transform: translate(-150px, -250px);
+}
+
+/* Styling of history icon */
+label{
+    position: static;
+}
+
+/* Styling of checkbutton for toggling the calculator's history  */
+#check{
+    display: none;
+}
+
+#check:checked ~ #store-container{
+    display: block;
+}
+
+/* Positioning counter and icons inside the hisrtory container */
+.fixed{
+    position: sticky;
+    top: 0;
+    background-color: rgb(199, 199, 199);
+    text-align: center;
+    left: 0;
+    right: 0;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling of SVGs */
+svg{
+    height: 17px;
+    width: 17px;
+    fill: rgb(37, 35, 35);
+}
+
+.hist{
+    transform: translate(-4px, -12px);
+}
+
+.hist:active{
+    fill: rgb(100, 96, 96);
+}
+
+/* Positioning copy and delete icons */
+.copy{
+    padding-left: 5px;
+}
+
+.del{
+    padding-right: 5px;
+}
+
+/* Styling of counter for indicating max limit for storing answers */
+#max{
+    font-size: 14px;
+}
+
+/* Styling of dynamic javascript text */
+#msg{
+    position: static;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(24, 24, 32);
+}
+
+/* Positioning of container for dynamic javascript text */
+#wrap1{
+    position: absolute;
+    transform: translate(-220px, -225px);
+}
+
+/* Media queries for phones and tablets */
+@media (max-width: 500px){
+    input{
+        height: 55px;
+        font-size: 20px;
+    }
+    
+    button{
+        font-size: 18px;
+        height: 50px;
+        width: 50px;
+    }
+
+    #store-container{
+        transform: translate(-62px, -69px);
+        height: 190px;
+        width: 150px;
+    }
+
+    #wrap{
+        transform: translate(-110px, -195px);
+    }
+
+    #wrap1{
+        transform: translate(-60px, -188px);
+    }
+
+    #msg{
+        font-size: 10px;
+    }
+
+    section{
+        height: 450px;
+    }
+
+    svg{
+        height: 14px;
+        width: 14px;
+    }
+
+    .hist{
+        transform: translate(-7px, -6px);
+    }
+
+    .fixed{
+        height: 25px;
+    }
+}

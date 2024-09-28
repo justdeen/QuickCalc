@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <section>     <!-- Main container -->  
+        <input type="text" id="display" placeholder="123">
+
+        <!--Container for nesting button-->
+        <div>
+            <button onclick="toClear()">C</button>
+            <button onclick="parenthesis1()">(</button>
+            <button onclick="parenthesis2()">)</button>
+            <button onclick="toDisplay('/')">/</button>
+        </div>
+
+        <div>
+            <button onclick="toDisplay('1')">1</button>
+            <button onclick="toDisplay('2')">2</button>
+            <button onclick="toDisplay('3')">3</button>
+            <button onclick="toDisplay('*')">x</button>
+        </div>
+
+        <div>
+            <button onclick="toDisplay('4')">4</button>
+            <button onclick="toDisplay('5')">5</button>
+            <button onclick="toDisplay('6')">6</button>
+            <button onclick="toDisplay('-')">-</button>
+        </div>
+
+        <div>
+            <button onclick="toDisplay('7')">7</button>
+            <button onclick="toDisplay('8')">8</button>
+            <button onclick="toDisplay('9')">9</button>
+            <button onclick="toDisplay('+')">+</button>
+        </div>
+
+        <div>
+            <button onclick="toDelete()" id="remove">del</button>
+            <button onclick="toDisplay('0')">0</button>
+            <button onclick="toDisplay('.')">.</button>
+            <button onclick="ans()">=</button>
+        </div>
+    </section>
+    
+    <!--Chceckbox used to toggle the history of stored answers to calculations-->
+    <input type="checkbox" id="check">
+    <div id="wrap"><label for="check"><svg class="hist" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg></label></div>
+
+    <!--Dynamically displays success message using javascript after clicking the copy icon inside the history container-->
+    <div id="wrap1">
+        <p id="msg"></p>
+    </div>
+
+    <!--History container for storing answers to calculations-->
+    <div id="store-container">
+        <div class="fixed">
+            <span class="copy"><svg onclick="copy()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M208 0L332.1 0c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9L448 336c0 26.5-21.5 48-48 48l-192 0c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48zM48 128l80 0 0 64-64 0 0 256 192 0 0-32 64 0 0 48c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 176c0-26.5 21.5-48 48-48z"/></svg></span>
+            <span id="max"></span>
+            <span class="del"><svg onclick="del()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM416 128L32 128 53.2 467c1.6 25.3 22.6 45 47.9 45l245.8 0c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg></span>
+        </div>
+        <pre id="store"></pre>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
