@@ -75,7 +75,7 @@ button:active{
     position: absolute;
     border-radius: 5px;
     background-color: rgb(187, 187, 187);
-    transform: translate(-75px, -40px);
+    transform: translate(-75px, -25px);
 }
 
 #store{
@@ -125,7 +125,7 @@ svg{
 }
 
 .hist{
-    transform: translate(-4px, 37px);
+    transform: translate(-2px, 37px);
 }
 
 .hist:active{
@@ -165,7 +165,7 @@ svg{
     input{
         height: 55px;
         font-size: 20px;
-        width: 210px;
+        width: 215px;
     }
     
     button{
@@ -175,7 +175,7 @@ svg{
     }
 
     #store-container{
-        transform: translate(-62px, -29px);
+        transform: translate(-58px, -19px);
         height: 190px;
         width: 150px;
     }
@@ -185,7 +185,7 @@ svg{
     }
 
     #wrap1{
-        transform: translate(-60px, -188px);
+        transform: translate(-60px, -148px);
     }
 
     #msg{
@@ -202,7 +202,7 @@ svg{
     }
 
     .hist{
-        transform: translate(-7px, 53px);
+        transform: translate(-5px, 53px);
     }
 
     .fixed{
