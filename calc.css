@@ -21,8 +21,8 @@ section{
 }
 
 section div{
-    padding-right: -45px;
-    margin-right: -45px;
+    padding-left: 45px;
+    margin-left: 45px;
     border-right: 1px solid black;
     border-left: 1px solid black;
 }
