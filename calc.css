@@ -165,7 +165,7 @@ svg{
     input{
         height: 55px;
         font-size: 20px;
-        width: 220px;
+        width: 223px;
     }
     
     button{
@@ -201,11 +201,16 @@ svg{
         width: 18px;
     }
 
+    .copy, .del{
+        height: 15px;
+        width: 15px;
+    }
+
     .hist{
         transform: translate(-5px, 53px);
     }
 
     .fixed{
-        height: 25px;
+        height: 30px;
     }
 }
