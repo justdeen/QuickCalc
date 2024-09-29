@@ -6,8 +6,10 @@ body{
     min-height: 100vh;
     align-items: center;
     background-color: grey;
+    background-color: rgb(173, 173, 173);
 }
 
+/* H1 Styling */
 h1{
     text-align: center;
     color: rgb(37, 35, 35);
@@ -21,7 +23,7 @@ section{
     display: flex;
     flex-direction: column;
     background-color: rgb(143, 142, 142);
-    border: 2px solid rgb(71, 70, 70);
+    background-color: rgb(0, 0, 0);
     margin-bottom: 1px;
     padding: 0px 10px;
     border-radius: 30px;
@@ -38,9 +40,10 @@ input{
     width: 315px;
     font-size: 25px;
     color: rgb(37, 36, 36);
+    color: rgb(184, 183, 183);
     border: none;
     border-bottom: 2px solid rgb(71, 70, 70);
-    background-color: rgb(143, 142, 142);
+    background-color: rgb(0, 0, 0);
     margin: 13px 4px;
     margin-bottom: 15px;
     margin-top: 65px;
@@ -51,19 +54,35 @@ input{
 /* Styling of buttons */
 button{
     font-size: 25px;
-    border-radius: 50px;
+    border-radius: 20px;
     border: none;
     padding: 0px;
     height: 70px;
     width: 70px;
     margin: 5px;
-    background-image: linear-gradient(to right, rgb(37, 35, 35) , rgb(69, 69, 73));
+    background-color: rgb(48, 46, 46);
     color: rgb(255, 255, 255);
     transition: all 0.1s;
 }
 
 button:active{
-    background-image: linear-gradient(to right, rgb(69, 69, 73), rgb(37, 35, 35));
+    background-color: rgb(70, 70, 70);
+}
+
+.edit{
+    background-color: rgb(67, 67, 194);
+}
+
+.edit:active{
+    background-color: rgb(102, 102, 223);
+}
+
+.light{
+    background-color: rgb(85, 85, 88);
+}
+
+.light:active{
+    background-color: rgb(102, 102, 102);
 }
 
 /* Container for storing answers to calculations */
@@ -121,11 +140,12 @@ label{
 svg{
     height: 21px;
     width: 21px;
-    fill: rgb(37, 35, 35);
+    fill: rgb(48, 46, 46);
 }
 
 .hist{
     transform: translate(-2px, 37px);
+    /* fill: rgb(67, 67, 194); */
 }
 
 .hist:active{
@@ -151,13 +171,13 @@ svg{
     position: static;
     font-weight: 600;
     font-size: 12px;
-    color: rgb(24, 24, 32);
+    color: rgb(114, 114, 114);
 }
 
 /* Positioning of container for dynamic javascript text */
 #wrap1{
     position: absolute;
-    transform: translate(-220px, -225px);
+    transform: translate(-74px, -180px);
 }
 
 /* Media queries for phones and tablets */

@@ -14,38 +14,38 @@
 
         <!--Container for nesting button-->
         <div>
-            <button onclick="toClear()">C</button>
-            <button onclick="parenthesis1()">(</button>
-            <button onclick="parenthesis2()">)</button>
-            <button onclick="toDisplay('/')">/</button>
+            <button class="light" onclick="toClear()">C</button>
+            <button class="light" onclick="parenthesis1()">(</button>
+            <button class="light" onclick="parenthesis2()">)</button>
+            <button class="edit" onclick="toDisplay('/')">/</button>
         </div>
 
         <div>
             <button onclick="toDisplay('1')">1</button>
             <button onclick="toDisplay('2')">2</button>
             <button onclick="toDisplay('3')">3</button>
-            <button onclick="toDisplay('*')">x</button>
+            <button class="edit" onclick="toDisplay('*')">x</button>
         </div>
 
         <div>
             <button onclick="toDisplay('4')">4</button>
             <button onclick="toDisplay('5')">5</button>
             <button onclick="toDisplay('6')">6</button>
-            <button onclick="toDisplay('-')">-</button>
+            <button class="edit" onclick="toDisplay('-')">-</button>
         </div>
 
         <div>
             <button onclick="toDisplay('7')">7</button>
             <button onclick="toDisplay('8')">8</button>
             <button onclick="toDisplay('9')">9</button>
-            <button onclick="toDisplay('+')">+</button>
+            <button class="edit" onclick="toDisplay('+')">+</button>
         </div>
 
         <div>
             <button onclick="toDelete()" id="remove">del</button>
             <button onclick="toDisplay('0')">0</button>
             <button onclick="toDisplay('.')">.</button>
-            <button onclick="ans()">=</button>
+            <button class="edit" onclick="ans()">=</button>
         </div>
     </section>
     
