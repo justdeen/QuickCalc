@@ -1,9 +1,9 @@
-## Overview;
+## Overview
 I made use of JavaScript, HTML5 and CSS to actualize this project. I used JavaScript to call the functions which I assigned to the HTML button elements using the "onclick" attribute. 
 
 
-## How The Code Works;
-### 1. Primary Buttons 
+## How The Code Works
+### 1. Primary Buttons:
 
   Each HTML button representing a number or a symbol for an arithmetic operation is categorized as a primary button and assigned with an input inside their onclick function
 
@@ -75,5 +75,5 @@ I made use of bindings (variables) which enabled me to store and convert the use
 3) JavaScript 
 
 
-## Dependencies;
+## Dependencies
 FontAwesome 
