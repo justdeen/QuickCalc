@@ -76,4 +76,4 @@ I made use of bindings (variables) which enabled me to store and convert the use
 
 
 ## Dependencies
-FontAwesome 
+1. FontAwesome 
