@@ -13,13 +13,11 @@ I made use of JavaScript, HTML5 and CSS to actualize this project. I used JavaSc
  
     onclick="toDisplay(+)"
 
-  This input/argument is then fed to the input of the function when I call it in the JavaScript code.
-
   This HTML input/argument is then fed to the argument of the JavaScript function when I call it in the JavaScript code. 
 
   
 ### 2. Secondary Buttons:
-The special buttons which are used to clear or delete user input, add more context to user input by using parenthesis or displaying the result of an operation, and will be discussed in this subsection;
+The are also known as the special buttons and are used to clear or delete user input, add more context to user input by using parenthesis or displaying the result of an operation, and will be discussed in this subsection;
 
     i) The clear button (C);
 An onclick attribute is assigned to this button element which doesn't take any argument because the function of this button is to clear the user's input, hence nothing is being added to the existing input. 
