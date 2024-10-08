@@ -3,7 +3,7 @@ I made use of JavaScript, HTML5 and CSS to implement this project. I used JavaSc
 
 
 ## 🧑‍💻 How The Code Works
-### 🎈 1. Primary Buttons:
+### 1. Primary Buttons:
 
   Each HTML button representing a number or a symbol for an arithmetic operation is categorized as a primary button and assigned with an input inside their onclick function
 
@@ -16,7 +16,7 @@ I made use of JavaScript, HTML5 and CSS to implement this project. I used JavaSc
   This HTML input/argument is then fed to the argument of the JavaScript function when I call it in the JavaScript code. 
 
   
-### 🎈 2. Secondary Buttons:
+### 2. Secondary Buttons:
 The are also known as the special buttons and are used to clear or delete user input, add more context to user input by using parenthesis or displaying the result of an operation, and will be discussed in this subsection;
 
     i) The clear button (C);
@@ -32,7 +32,7 @@ This button simply inserts an opening or closing parenthesis in the calculator's
 This button is used to check if the user's input is null and display result of an operation when its function is called. I used the "try" and "catch" syntaxes to ensure math errors are detected and to inform the user about such errors. Inside the "try" command, the user's input is evaluated first before error detection (if any), using the "eval" syntax to compute the operation on the calculator's display. 
 
 
-### 🎈 3. Storing Answers:
+### 3. Storing Answers:
 In order to store the answer generated from an arithmetic operation, I simply nested an "if" command inside the function for displaying answers. This ensures that when the user clicks the "=" button the generated answer will be stored in the history.
 
 
@@ -45,7 +45,7 @@ The history is updated using ".innerHTML". Every time a valid answer is generate
 The counter is incremented inside the "if" command and the condition checks if the counter variable is less than or equal to 20. 
 
 
-### 🎈 4. Copying and Deleting Answers:
+### 4. Copying and Deleting Answers:
   Copy;
 I included a function for copying all the answers in the calculator's history and also providing a visual feedback when the copy icon is clicked.
 
