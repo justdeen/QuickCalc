@@ -1,5 +1,5 @@
 ## 💫 Overview
-I made use of JavaScript, HTML5 and CSS to actualize this project. I used JavaScript to call the functions which I assigned to the HTML button elements using the "onclick" attribute. 
+I made use of JavaScript, HTML5 and CSS to implement this project. I used JavaScript to call the functions which I assigned to the HTML button elements using the "onclick" attribute. 
 
 
 ## 🧑‍💻 How The Code Works
