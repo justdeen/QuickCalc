@@ -1,3 +1,5 @@
+![Notes_241026_125020_de2](https://github.com/user-attachments/assets/1a6538a5-cf4f-413c-bcdb-d70ef047a902)
+
 ## 💫 Overview
 I made use of JavaScript, HTML5 and CSS to actualize this project. I used JavaScript to call the functions which I assigned to the HTML button elements using the "onclick" attribute. 
 
